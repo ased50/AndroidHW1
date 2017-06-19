@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Words</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Train">Train Yourself</string>
+
+    <string name="add">Add New Words</string>
+    <string name="Test">Test Yourself</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b5"
+    tools:context="com.example.emrepc.androidhw1.TestYourself">
+
+    <TextView
+        android:id="@+id/the_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WORD"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#85bdde"
+        android:textColor="#ee4035"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/scorebox"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|right"
+        android:layout_gravity="right"
+        android:hint=" Score: 0"
+        android:editable="false"/>
+
+</LinearLayout>

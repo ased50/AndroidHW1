@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplan3">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Train Yourself"
+        android:textSize="20dp"
+        android:background="@drawable/button2"
+        android:layout_gravity="center_horizontal|center"
+        android:onClick="trainFunction"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:textSize="20dp"
+        android:text="Add New Words"
+        android:layout_gravity="center_horizontal|center"
+        android:onClick="addOnClickFunction"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@drawable/button2"
+        android:text="Test Yourself"
+        android:layout_gravity="center_horizontal|center"
+        android:onClick="testOnClickFunction"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Created By Topal Hamsi"
+            android:textSize="25dp"
+            android:textColor="#032149"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

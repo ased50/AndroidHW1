@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="English word"
+        android:textSize="30dp"
+        android:textColorHint="#85090b"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/tr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Turkish word"
+        android:textSize="30dp"
+        android:textColorHint="#85090b"
+        android:textColor="#000000"/>
+    <Button
+        android:text="Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addOnClickFunction"
+        android:textColor="#8b7b8b"
+        android:textSize="35dp"
+        android:background="#003100"/>
+
+</LinearLayout>
